@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider</title>
+        <link rel="stylesheet" href="./style/hamburger-menu.css">
+        <link rel="stylesheet" href="./style/header-style.css">
+        <link rel="stylesheet" href="./style/body-style.css">
+        <link rel="stylesheet" href="./style/mobile-style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="root">
+            <div class="header-side">
+                <div class="wrapper">
+                    <nav class="mobile-header">
+                      <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+                      <label class="m-menu__toggle open-btn" for="menu">
+                        <svg viewBox="0 0 100 80" width="40" height="25">
+                            <rect width="85" height="10" rx="10"></rect>
+                            <rect y="20" width="85" height="10" rx="10"></rect>
+                            <rect y="40" width="85" height="10" rx="10"></rect>
+                          </svg>
+                      </label>
+                      <label class="m-menu__overlay" for="menu"></label>
+                      <div class="m-menu">
+                        <div class="m-menu__header">
+                            <span><img class="logo" src="./img/Logo.svg"></span>
+                            <label class="m-menu__toggle close-menu" for="menu">
+                                <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </label>
+                        </div>
+                        <ul>
+                            <li><a href="#">Post Header</a><img src="./img/B.svg"></li>
+                            <li><a href="#">Post Layout</a><img src="./img/B.svg"></li>
+                            <li><a href="#">Share Buttons</a><img src="./img/B.svg"></li>
+                            <li><a href="#">Gallery Post</a><img src="./img/B.svg"></li>
+                            <li><a href="#">Video Post</a><img src="./img/B.svg"></li>  
+                        </ul>  
+                      </div>
+                      <img class="logo" src="./img/Logo.svg">
+                        <img class="search" src="./img/Combined-Shape.svg">
+                    </nav>
+                </div>
+                <div class="header">
+                    <div class="header-logo">
+                        <img class="logo" src="./img/Logo.svg">
+                        <img class="search" src="./img/Combined-Shape.svg">
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <ul class="item-list">
+                        <li><a href="#">Demos<img src="./img/B.svg"></a></li>
+                        <li><a href="#">Post<img src="./img/B.svg"><i class="fa fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Post Header</a><img src="./img/c.svg"></li><hr>
+                            <li><a href="#">Post Layout</a><img src="./img/c.svg"></li><hr>
+                            <li><a href="#">Share Buttons</a><img src="./img/c.svg"></li><hr>
+                            <li><a href="#">Gallery Post</a><img src="./img/c.svg"></li><hr>
+                            <li><a href="#">Video Post</a><img src="./img/c.svg"></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Features<img src="./img/B.svg"></a></li>
+                        <li><a href="#">Categories<img src="./img/B.svg"></a></li>
+                        <li><a href="#">Shop<img src="./img/B.svg"></a></li>
+                        <li><a href="#">Buy Now<img src="./img/B.svg"></a></li>
+                    </ul>
+                </div>
+            <div class="body-side flex-container wrap">
+                    <div class="item">
+                        <img src="./img/Rectangle.jpg">
+                        <p class="content">Lifestyle</p>
+                        <h1>Eat Right For Your Exercise Regime</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-3.jpg">
+                        <p class="content">Style</p>
+                        <h1>24 Colorful Ceilings That Add Unexpected Contrast to Any Room</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-6.jpg">
+                        <p class="content">Travel</p>
+                        <h1>When Two Wheels Are Better Than Four</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-1.jpg">
+                        <p class="content">Lifestyle</p>
+                        <h1>The Look: Perfect Balance</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-4.jpg">
+                        <p class="content">Lifestyle</p>
+                        <h1>9 New Songs to Heat Up Your Fall Playlist</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-7.jpg">
+                        <p class="content">Travel</p>
+                        <h1>26 Living Room Ideas from the Homes of Top Designers</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-2.jpg">
+                        <p class="content">Style</p>
+                        <h1>Fun Things to Do in Rome</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-5.jpg">
+                        <p class="content">Events</p>
+                        <h1>What You Need on Your Bedside Table</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/Rectangle-8.jpg">
+                        <p class="content">Music</p>
+                        <h1>What Makes Your City’s Style Unique</h1>
+                        <div class="about-item">
+                            <span class="name">Niek Bove </span>
+                            <span>. April 8, 2018 .</span>
+                            <span>3K Views</span>
+                        </div>
+                        <p class="description">Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button…</p>
+                    </div>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

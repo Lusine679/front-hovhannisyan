@@ -1,0 +1,37 @@
+@media only screen and (max-width: 700px) {
+    .header, .header-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    #root{
+        padding-bottom: 5px;
+    }
+    .wrapper{
+        display: block;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .header, .header-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        align-items: center;
+    }
+    .body-side .item img{
+        width: 100%;
+    }
+    .body-side .item{
+        height: auto;
+        margin-top: 0px;
+        padding: 0px 20px 20px 20px;  
+    }
+    .wrap{
+        gap:0;
+    }
+    #root{
+        padding-bottom: 0px;
+    }
+}

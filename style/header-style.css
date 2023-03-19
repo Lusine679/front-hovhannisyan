@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+  }
+#root{
+    padding-bottom: 30px;
+}
+/* header style */
+.header{
+    margin-top: 29px;
+    text-align: center;
+    border-bottom: 1px solid #E9E9E9;
+}
+.header-menu{
+    border-bottom: 1px solid #E9E9E9;
+}
+.header .logo{
+    text-align: center;
+    width: 180.83px;
+    height: 26.6px;
+}
+.header .search{
+    float: right;
+    width: 16px;
+    height: 16px;
+}
+.header-logo{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.header-menu .item-list{
+    max-width: 700px;
+    width: 100%;
+    margin:0px auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-menu .item-list .item-text{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+}
+.header-menu .item-list img{
+    margin-left:5px;
+    cursor:pointer;
+}
+.header-menu ul li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+.header-menu {
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    background: #fff;
+}
+.header-menu ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+.header-menu .item-list > li {
+    position: relative;
+}
+.header-menu .item-list > li:last-child {
+    margin-right: 0;
+}
+.header-menu .item-list hr{
+    margin-top: 8px;
+    margin-bottom:8px;
+    color:#E9E9E9;
+}
+.header-menu .item-list a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    transition: .5s linear;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #000000;
+}
+.header-menu .submenu a:hover{
+    margin-left: 7px;
+    color:#969696;
+}
+.header-menu .submenu li{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu .submenu {
+    width: 176px;
+    max-width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 20px;
+    max-width: 176px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
